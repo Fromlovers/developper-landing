@@ -7,6 +7,7 @@ import router from './routes/index.js';
 function onDeviceReady() {
   devtools.connect('http://localhost:3000');
 }
+
 if (window.location.protocol === 'http:') {
   document.addEventListener('deviceready', onDeviceReady, false);
 } else {
