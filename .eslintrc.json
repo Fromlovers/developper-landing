@@ -5,7 +5,7 @@
     "browser": true,
     "es6": true
   },
-  "extends": ["airbnb-base", "plugin:vue/essential"],
+  "extends": ["airbnb-base", "plugin:vue/recommended"],
   "parserOptions": {
     "parser": "babel-eslint",
     "sourceType": "module"
